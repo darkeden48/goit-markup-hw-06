@@ -41,7 +41,23 @@
             <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="close-button" data-modal-close><img src="images/close.svg" width="30" height="30" alt="Закрыть"></button>
+                    <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+                    <form class="modal-form">
+                        <label class="label" for="name">Имя</label>
+                        <input class="input" type="name" name="name" autofocus>
+                        <label class="label" for="tel">Телефон</label>
+                        <input class="input" type="tel" name="tel">
+                        <label class="label" for="email">Почта</label>
+                        <input class="input" type="email" name="email">
+                        <label class="label" for="text">Комментарий</label>
+                        <textarea class="textarea" name="feedback" rows="5" resize="both" placeholder="Введите текст"></textarea>
+
+                    </form>
+                    <button class="button-modal-close">
+                        <svg class="modal-close" width="11" height="11">
+                            <use href="./images/symbol-defs.svg#modal-close"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
@@ -364,14 +380,21 @@
             </li>
         </ul>
         </div>
-        <div class="subscribe">
-                <form>
-                    <div class="email-input">
-                <label class="label-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+        <div class="">
+            <form class="subscribe">
+                <div class="email-input">
+                    <label class="label-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
                     <input class="email" type="email" name="email">
-                    </div>
-                </form>
-            
+                </div>
+                <div class="button-subscribe">
+                    <button class="button-subscribe-button" type="submit">
+                        Подписаться
+                        <svg class="icon-subscribe" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#telegram"></use>
+                        </svg>  
+                    </button>
+                </div>
+            </form>
         </div>
         </div>
     </footer>
