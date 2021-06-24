@@ -43,15 +43,22 @@
                 <div class="modal">
                     <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
                     <form class="modal-form">
-                        <label class="label" for="name">Имя</label>
-                        <input class="input" type="name" name="name" autofocus>
-                        <label class="label" for="tel">Телефон</label>
-                        <input class="input" type="tel" name="tel">
-                        <label class="label" for="email">Почта</label>
-                        <input class="input" type="email" name="email">
-                        <label class="label" for="text">Комментарий</label>
-                        <textarea class="textarea" name="feedback" rows="5" resize="both" placeholder="Введите текст"></textarea>
-
+                    <div class="form-list">
+                        <label for="name">Имя</label>
+                        <input type="name" name="name" autofocus>
+                    </div>
+                    <div class="form-list">
+                        <label for="tel">Телефон</label>
+                        <input type="tel" name="tel">
+                    </div>
+                    <div class="form-list">
+                        <label for="email">Почта</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="form-list">
+                        <label for="text">Комментарий</label>
+                        <textarea name="feedback" rows="5" resize="both" placeholder="Введите текст"></textarea>
+                    </div>
                     </form>
                     <button class="button-modal-close">
                         <svg class="modal-close" width="11" height="11">
