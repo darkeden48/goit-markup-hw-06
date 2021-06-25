@@ -45,14 +45,23 @@
                     <form class="modal-form">
                     <div class="form-list">
                         <label for="name">Имя</label>
+                        <svg class="full-name" width="12" height="12">
+                            <use href="./images/symbol-defs.svg#full-name"></use>
+                        </svg>
                         <input type="name" name="name" autofocus>
                     </div>
                     <div class="form-list">
                         <label for="tel">Телефон</label>
+                        <svg class="phone" width="13" height="13">
+                            <use href="./images/symbol-defs.svg#phone"></use>
+                        </svg>
                         <input type="tel" name="tel">
                     </div>
                     <div class="form-list">
                         <label for="email">Почта</label>
+                        <svg class="e-post" width="15" height="12">
+                            <use href="./images/symbol-defs.svg#e-post"></use>
+                        </svg>
                         <input type="email" name="email">
                     </div>
                     <div class="form-list">
@@ -60,7 +69,7 @@
                         <textarea name="feedback" rows="5" resize="both" placeholder="Введите текст"></textarea>
                     </div>
                     </form>
-                    <button class="button-modal-close">
+                    <button class="button-modal-close" data-modal-close>
                         <svg class="modal-close" width="11" height="11">
                             <use href="./images/symbol-defs.svg#modal-close"></use>
                         </svg>

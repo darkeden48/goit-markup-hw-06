@@ -408,6 +408,11 @@ color: var(--background-color);
 .form-list{
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+.e-post{
+    position: absolute;
+    
 }
 .form-list input{
     width: 448px;
